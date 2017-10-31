@@ -1,0 +1,67 @@
+$enable-font-awesome: dynamic(true);
+
+.vsj-video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+
+/* Text Track Styles */
+/* Overall track holder for both captions and subtitles */
+.videojspanel .vjs-text-track-display {
+    text-align: center;
+    position: absolute;
+    bottom: 4em;
+    /* Leave padding on left and right */
+    left: 1em;
+    right: 1em;
+}
+
+/* Individual tracks */
+.videojspanel .vjs-text-track {
+    display: none;
+    font-size: 1.8em;
+    text-align: center;
+    margin-bottom: -1.5em;
+    /* Transparent black background, or fallback to all black (oldIE) */
+    /* background-color-with-alpha */
+    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.videojspanel .vjs-subtitles {
+    color: #ffffff/* Subtitles are white */;
+}
+.videojspanel .vjs-captions {
+    color: #ffcc66/* Captions are yellow */;
+}
+
+/* small correction on the videojs css */
+.vjs-default-skin.vjs-fullscreen .vjs-subtitles.vjs-text-track {
+    font-size: 4em !important;
+}
+
+.vjs-default-skin.vjs-fullscreen .vjs-text-track {
+    margin-bottom: 0em !important;
+}
+
+.vjs-not-supported {
+    z-index: 10000;
+    position: absolute;
+    background: #ccc;
+    color: #fff;
+    margin: 20%;
+    width: 60%;
+    padding: 20px;
+}
+
+/* hide the Videojs default big play button */
+.vjs-default-skin .vjs-big-play-button {
+    display: none;
+}
+
+/* show poster at ended (not working !) */
+.videojspanel .video-js.vjs-ended .vjs-poster {
+  display: block;
+}
