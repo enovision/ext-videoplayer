@@ -35,54 +35,6 @@
     "classpath": [
       "${package.dir}/src"
     ],
-    "overrides": [
-      "${package.dir}/overrides"
-    ],
-    "example": {
-      "path": [
-        "${package.dir}/examples"
-      ]
-    },
- /*   "production": {
-      "js": [
-        {
-          "path": "resources/VideoPlayer/videojs/js/videojs-ie8.min.js",
-          "remote": true
-        },
-        {
-          "path": "resources/VideoPlayer/videojs/js/video.js",
-          "remote": true
-        },
-        {
-          "path": "resources/VideoPlayer/videojs/js/youtube/youtube.js",
-          "remote": true
-        }
-      ],
-      "css": [
-        {
-          "path": "resources/VideoPlayer/videojs/css/video-js.css",
-          "remote": true
-        }
-      ]
-    },
-    "development": {
-      "js": [
-        {
-          "path": "resources/videojs/js/videojs-ie8.min.js"
-        },
-        {
-          "path": "resources/videojs/js/video.js"
-        },
-        {
-          "path": "resources/videojs/js/youtube/youtube.js"
-        }
-      ],
-      "css": [
-        {
-          "path": "resources/videojs/css/video-js.css"
-        }
-      ]
-    }, */
     "resources": [
       {
         "path": "resources",
